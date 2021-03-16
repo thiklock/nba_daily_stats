@@ -8,6 +8,7 @@ from decouple import config
 from sqlalchemy import create_engine
 
 
+
 URL = config('db_url')
 
 
